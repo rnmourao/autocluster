@@ -5,7 +5,7 @@ with open('README.md') as readme_file:
 
 setup_args = dict(
     name = 'autocluster',
-    version = '0.5.2',
+    version = '0.5.3',
     description = 'Automated machine learning toolkit for performing clustering tasks.',
     long_description_content_type = "text/markdown",
     long_description = README,
@@ -22,16 +22,15 @@ install_requires = [
     'cycler>=0.10.0',
     'joblib>=0.11.0',
     'kiwisolver>=1.0.1',
-    'matplotlib==3.0.3',
+    'matplotlib>=3.0.3',
     'numpy>=1.12.0',
-    'pandas==0.24.2',
-    'pyparsing==2.4.0',
+    'pandas>=0.24.2',
+    'pyparsing>=2.4.0',
     'python-dateutil>=2.5.0',
-    'pytz==2019.1',
-    'scikit-learn==0.21.3',
+    'pytz>=2019.1',
+    'scikit-learn>=0.21.3',
     'scipy>=0.17.0',
     'six>=1.5.0',
-    'sklearn==0.0'
 ]
 
 if __name__ == '__main__':
